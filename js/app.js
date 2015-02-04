@@ -6,6 +6,6 @@ $(document).ready(function() {
 	$('.image').click(function() {
 
 		//Toggle between showing & hiding warning message
-		$('.warning').toggle();
+		$('.warning').toggle('fast');
 	});
 });
