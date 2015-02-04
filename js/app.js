@@ -1,9 +1,11 @@
 $(document).ready(function() {
-	//Hide trap message as soon as page loads
+	//Hide warning message as soon as page loads
 	$('.warning').hide();
 
 	//Capture click on image
 	$('.image').click(function() {
+
+		//Toggle between showing & hiding warning message
 		$('.warning').toggle();
 	});
 });
